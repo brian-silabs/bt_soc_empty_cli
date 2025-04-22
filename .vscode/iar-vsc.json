@@ -1,0 +1,18 @@
+{
+  "workspace": {
+    "path": "${workspaceFolder}\\bt_soc_empty_cli.eww"
+  },
+  "workspaces": {
+    "${workspaceFolder}\\bt_soc_empty_cli.eww": {
+      "configs": {
+        "${workspaceFolder}\\bt_soc_empty_cli.ewp": "Default"
+      },
+      "selected": {
+        "path": "${workspaceFolder}\\bt_soc_empty_cli.ewp"
+      }
+    }
+  },
+  "workbench": {
+    "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.2"
+  }
+}

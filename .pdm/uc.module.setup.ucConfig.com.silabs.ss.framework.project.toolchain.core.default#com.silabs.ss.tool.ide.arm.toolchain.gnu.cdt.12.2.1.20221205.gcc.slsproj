@@ -16,8 +16,12 @@
     <file name="sl_bt_in_place_ota_dfu_config.h" generated="true" linked="false"/>
     <file name="sl_iostream_usart_vcom_config.h" generated="true" linked="false"/>
     <file name="sl_rail_test_config.h" generated="true" linked="false"/>
+    <file name="sl_rail_util_ant_div_config.h" generated="true" linked="false"/>
+    <file name="sl_rail_util_dma_config.h" generated="true" linked="false"/>
     <file name="sl_rail_util_init_inst0_config.h" generated="true" linked="false"/>
     <file name="sl_rail_util_pti_config.h" generated="true" linked="false"/>
+    <file name="sl_rail_util_rf_path_config.h" generated="true" linked="false"/>
+    <file name="sl_rail_util_rssi_config.h" generated="true" linked="false"/>
     <file name="sl_power_manager_config.h" generated="true" linked="false"/>
     <file name="nvm3_default_config.h" generated="true" linked="false"/>
     <file name="psa_crypto_config.h" generated="true" linked="false"/>
@@ -47,10 +51,6 @@
     <file name="sl_mbedtls_config.h" generated="true" linked="false"/>
     <file name="sl_mbedtls_device_config.h" generated="true" linked="false"/>
     <file name="sl_rail_util_callbacks_config.h" generated="true" linked="false"/>
-    <file name="sl_rail_util_ant_div_config.h" generated="true" linked="false"/>
-    <file name="sl_rail_util_dma_config.h" generated="true" linked="false"/>
-    <file name="sl_rail_util_rf_path_config.h" generated="true" linked="false"/>
-    <file name="sl_rail_util_rssi_config.h" generated="true" linked="false"/>
   </folder>
   <includePath uri="studio:/project/config"/>
   <includePath uri="studio:/project/config/btconf"/>

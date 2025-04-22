@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iarProjectConnection name="Simplicity Configurator" version="1.8">
+  <postBuild>
+    <command>&quot;C:\SiliconLabs\SimplicityStudio\v5_2024H2\developer\adapter_packs\commander\commander.exe&quot; postbuild &quot;./bt_soc_empty_cli.slpb&quot; --parameter build_dir:&quot;$TARGET_DIR$&quot;</command>
+  </postBuild>
+  <files>
+    <group name="autogen">
+      <group name=".slc_state">
+        <path>autogen\.slc_state\apack_radioconfig.crc</path>
+        <path>autogen\.slc_state\.crc_config.crc</path>
+      </group>
+      <path>autogen\gatt_db.c</path>
+      <path>autogen\gatt_db.h</path>
+      <path>autogen\radioconf_generation_log.json</path>
+      <path>autogen\rail_config.c</path>
+      <path>autogen\rail_config.h</path>
+      <path>autogen\sl_bluetooth.c</path>
+      <path>autogen\sl_bluetooth.h</path>
+      <path>autogen\sl_board_default_init.c</path>
+      <path>autogen\sl_application_type.h</path>
+      <path>autogen\sl_cli_command_table.c</path>
+      <path>autogen\sl_cli_command_table.html</path>
+      <path>autogen\sl_cli_handles.h</path>
+      <path>autogen\sl_cli_instances.c</path>
+      <path>autogen\sl_cli_instances.h</path>
+      <path>autogen\sli_cli_hooks.c</path>
+      <path>autogen\RTE_Components.h</path>
+      <path>autogen\sl_component_catalog.h</path>
+      <path>autogen\sl_event_handler.h</path>
+      <path>autogen\sl_event_handler.c</path>
+      <path>autogen\sl_iostream_handles.h</path>
+      <path>autogen\sl_iostream_handles.c</path>
+      <path>autogen\sl_iostream_init_instances.h</path>
+      <path>autogen\sl_iostream_init_usart_instances.c</path>
+      <path>autogen\sl_iostream_init_usart_instances.h</path>
+      <path>autogen\sli_mbedtls_config_autogen.h</path>
+      <path>autogen\sli_mbedtls_config_transform_autogen.h</path>
+      <path>autogen\sl_power_manager_handler.c</path>
+      <path>autogen\sli_psa_config_autogen.h</path>
+      <path>autogen\sli_psa_builtin_config_autogen.h</path>
+      <path>autogen\sl_rail_util_callbacks.c</path>
+      <path>autogen\sl_rail_util_ieee802154_phy_select.c</path>
+      <path>autogen\sl_rail_util_ieee802154_stack_event.c</path>
+      <path>autogen\sl_rail_util_init.c</path>
+      <path>autogen\sl_rail_util_init.h</path>
+      <path>autogen\linkerfile.icf</path>
+      <path>autogen\gen.properties</path>
+    </group>
+    <group name="config">
+      <group name="btconf">
+        <path>config\btconf\gatt_configuration.btconf</path>
+        <path>config\btconf\in_place_ota_dfu.xml</path>
+      </group>
+      <path>config\sl_memory_config.h</path>
+      <path>config\app_assert_config.h</path>
+      <path>config\sl_bluetooth_connection_config.h</path>
+      <path>config\sl_bluetooth_config.h</path>
+      <path>config\btl_interface_cfg.h</path>
+      <path>config\sl_cli_config_inst.h</path>
+      <path>config\sl_clock_manager_oscillator_config.h</path>
+      <path>config\sl_clock_manager_tree_config.h</path>
+      <path>config\sl_bt_in_place_ota_dfu_config.h</path>
+      <path>config\sl_iostream_usart_vcom_config.h</path>
+      <path>config\sl_rail_test_config.h</path>
+      <path>config\sl_rail_util_ant_div_config.h</path>
+      <path>config\sl_rail_util_dma_config.h</path>
+      <path>config\sl_rail_util_init_inst0_config.h</path>
+      <path>config\sl_rail_util_pti_config.h</path>
+      <path>config\sl_rail_util_rf_path_config.h</path>
+      <path>config\sl_rail_util_rssi_config.h</path>
+      <path>config\sl_power_manager_config.h</path>
+      <path>config\nvm3_default_config.h</path>
+      <path>config\psa_crypto_config.h</path>
+      <path>config\sl_device_init_dcdc_config.h</path>
+      <path>config\sl_memory_manager_config.h</path>
+      <path>config\response_print_config.h</path>
+      <path>config\circular_queue_config.h</path>
+      <path>config\sl_hfxo_manager_config.h</path>
+      <path>config\dmadrv_config.h</path>
+      <path>config\sl_interrupt_manager_s2_config.h</path>
+      <path>config\sl_rail_util_rf_path_switch_config.h</path>
+      <path>config\sl_board_control_config.h</path>
+      <path>config\sl_cli_config.h</path>
+      <path>config\sl_memory_manager_region_config.h</path>
+      <path>config\app_properties_config.h</path>
+      <path>config\sl_bluetooth_advertiser_config.h</path>
+      <path>config\sl_debug_swo_config.h</path>
+      <path>config\sl_bt_host_adaptation_config.h</path>
+      <path>config\sl_mx25_flash_shutdown_eusart_config.h</path>
+      <path>config\sl_rail_util_power_manager_init_config.h</path>
+      <path>config\buffer_pool_allocator_config.h</path>
+      <path>config\sl_rail_util_pa_config.h</path>
+      <path>config\sl_core_config.h</path>
+      <path>config\sl_rail_util_protocol_config.h</path>
+      <path>config\emlib_core_debug_config.h</path>
+      <path>config\sl_sleeptimer_config.h</path>
+      <path>config\sl_mbedtls_config.h</path>
+      <path>config\sl_mbedtls_device_config.h</path>
+      <path>config\sl_rail_util_callbacks_config.h</path>
+    </group>
+    <group name="image">
+      <path>image\readme_img0.png</path>
+      <path>image\readme_img1.png</path>
+      <path>image\readme_img2.png</path>
+      <path>image\readme_img3.png</path>
+      <path>image\readme_img4.png</path>
+    </group>
+    <group name="simplicity_sdk_2024.12.1">
+      <group name="platform">
+        <group name="Device">
+          <group name="SiliconLabs">
+            <group name="EFR32ZG28">
+              <group name="Source">
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Source\system_efr32zg28.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Source\startup_efr32zg28.c</path>
+              </group>
+              <group name="Include">
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28b312f1024im68.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_acmp.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_aes.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_buram.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_burtc.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_cmu.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_dcdc.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_devinfo.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_dma_descriptor.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_dpll.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_emu.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_eusart.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_fsrco.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_gpcrc.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_gpio.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_gpio_port.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_hfrco.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_hfxo.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_i2c.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_iadc.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_icache.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_keyscan.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_lcd.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_lcdrf.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_ldma.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_ldmaxbar.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_ldmaxbar_defines.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_lesense.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_letimer.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_lfrco.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_lfxo.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_mailbox.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_mpahbram.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_msc.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_mvp.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_pcnt.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_pfmxpprf.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_prs.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_prs_signals.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_scratchpad.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_semailbox.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_smu.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_syscfg.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_sysrtc.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_timer.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_ulfrco.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_usart.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_vdac.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\efr32zg28_wdog.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\em_device.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\Device\SiliconLabs\EFR32ZG28\Include\system_efr32zg28.h</path>
+              </group>
+            </group>
+          </group>
+        </group>
+        <group name="common">
+          <group name="inc">
+            <path>simplicity_sdk_2024.12.1\platform\common\inc\sl_atomic.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\common\inc\sl_bit.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\common\inc\sl_code_classification.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\common\inc\sli_code_classification.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\common\inc\sl_enum.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\common\inc\sl_assert.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\common\inc\sl_common.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\common\inc\sl_compiler.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\common\inc\sl_core.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\common\inc\sl_string.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\common\inc\sl_slist.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\common\inc\sl_status.h</path>
+          </group>
+          <group name="src">
+            <path>simplicity_sdk_2024.12.1\platform\common\src\sl_assert.c</path>
+            <path>simplicity_sdk_2024.12.1\platform\common\src\sl_core_cortexm.c</path>
+            <path>simplicity_sdk_2024.12.1\platform\common\src\sl_string.c</path>
+            <path>simplicity_sdk_2024.12.1\platform\common\src\sl_slist.c</path>
+          </group>
+          <group name="toolchain">
+            <group name="inc">
+              <path>simplicity_sdk_2024.12.1\platform\common\toolchain\inc\sl_memory_region.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\common\toolchain\inc\sl_memory.h</path>
+            </group>
+          </group>
+        </group>
+        <group name="bootloader">
+          <group name="app_properties">
+            <path>simplicity_sdk_2024.12.1\platform\bootloader\app_properties\app_properties.c</path>
+          </group>
+          <group name="api">
+            <path>simplicity_sdk_2024.12.1\platform\bootloader\api\btl_interface.c</path>
+            <path>simplicity_sdk_2024.12.1\platform\bootloader\api\btl_interface_storage.c</path>
+            <path>simplicity_sdk_2024.12.1\platform\bootloader\api\application_properties.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\bootloader\api\btl_errorcode.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\bootloader\api\btl_interface.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\bootloader\api\btl_interface_parser.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\bootloader\api\btl_interface_storage.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\bootloader\api\btl_reset_info.h</path>
+          </group>
+          <group name="core">
+            <group name="flash">
+              <path>simplicity_sdk_2024.12.1\platform\bootloader\core\flash\btl_internal_flash.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\bootloader\core\flash\btl_internal_flash.h</path>
+            </group>
+            <path>simplicity_sdk_2024.12.1\platform\bootloader\core\btl_util.h</path>
+          </group>
+        </group>
+        <group name="service">
+          <group name="cli">
+            <group name="inc">
+              <path>simplicity_sdk_2024.12.1\platform\service\cli\inc\sl_cli.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\cli\inc\sl_cli_types.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\cli\inc\sl_cli_command.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\cli\inc\sl_cli_input.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\cli\inc\sl_cli_tokenize.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\cli\inc\sl_cli_arguments.h</path>
+            </group>
+            <group name="src">
+              <path>simplicity_sdk_2024.12.1\platform\service\cli\src\sl_cli_input.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\cli\src\sl_cli_tokenize.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\cli\src\sl_cli_command.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\cli\src\sl_cli.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\cli\src\sl_cli_io.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\cli\src\sl_cli_arguments.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\cli\src\sli_cli_arguments.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\cli\src\sli_cli_input.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\cli\src\sli_cli_io.h</path>
+            </group>
+          </group>
+          <group name="clock_manager">
+            <group name="src">
+              <path>simplicity_sdk_2024.12.1\platform\service\clock_manager\src\sl_clock_manager_init.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\clock_manager\src\sli_clock_manager_init_hal.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\clock_manager\src\sl_clock_manager_init_hal_s2.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\clock_manager\src\sl_clock_manager.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\clock_manager\src\sli_clock_manager_hal.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\clock_manager\src\sl_clock_manager_hal_s2.c</path>
+            </group>
+            <group name="inc">
+              <path>simplicity_sdk_2024.12.1\platform\service\clock_manager\inc\sl_clock_manager_init.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\clock_manager\inc\sl_clock_manager.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\clock_manager\inc\sli_clock_manager.h</path>
+            </group>
+          </group>
+          <group name="device_manager">
+            <group name="src">
+              <path>simplicity_sdk_2024.12.1\platform\service\device_manager\src\sl_device_clock.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\device_manager\src\sl_device_gpio.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\device_manager\src\sl_device_peripheral.c</path>
+            </group>
+            <group name="inc">
+              <path>simplicity_sdk_2024.12.1\platform\service\device_manager\inc\sl_device_clock.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\device_manager\inc\sl_device_gpio.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\device_manager\inc\sl_device_peripheral.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\device_manager\inc\sl_device_peripheral_types.h</path>
+            </group>
+            <group name="clocks">
+              <path>simplicity_sdk_2024.12.1\platform\service\device_manager\clocks\sl_device_clock_efr32xg28.c</path>
+            </group>
+            <group name="devices">
+              <path>simplicity_sdk_2024.12.1\platform\service\device_manager\devices\sl_device_peripheral_hal_efr32xg28.c</path>
+            </group>
+          </group>
+          <group name="device_init">
+            <group name="src">
+              <path>simplicity_sdk_2024.12.1\platform\service\device_init\src\sl_device_init_dcdc_s2.c</path>
+            </group>
+            <group name="inc">
+              <path>simplicity_sdk_2024.12.1\platform\service\device_init\inc\sl_device_init_dcdc.h</path>
+            </group>
+          </group>
+          <group name="hfxo_manager">
+            <group name="src">
+              <path>simplicity_sdk_2024.12.1\platform\service\hfxo_manager\src\sl_hfxo_manager.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\hfxo_manager\src\sl_hfxo_manager_hal_s2.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\hfxo_manager\src\sli_hfxo_manager_internal.h</path>
+            </group>
+            <group name="inc">
+              <path>simplicity_sdk_2024.12.1\platform\service\hfxo_manager\inc\sl_hfxo_manager.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\hfxo_manager\inc\sli_hfxo_manager.h</path>
+            </group>
+          </group>
+          <group name="interrupt_manager">
+            <group name="src">
+              <path>simplicity_sdk_2024.12.1\platform\service\interrupt_manager\src\sli_interrupt_manager.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\interrupt_manager\src\sl_interrupt_manager_cortexm.c</path>
+            </group>
+            <group name="inc">
+              <group name="arm">
+                <path>simplicity_sdk_2024.12.1\platform\service\interrupt_manager\inc\arm\cmsis_nvic_virtual.h</path>
+              </group>
+              <path>simplicity_sdk_2024.12.1\platform\service\interrupt_manager\inc\sl_interrupt_manager.h</path>
+            </group>
+          </group>
+          <group name="iostream">
+            <group name="src">
+              <path>simplicity_sdk_2024.12.1\platform\service\iostream\src\sl_iostream.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\iostream\src\sl_iostream_retarget_stdio.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\iostream\src\sl_iostream_uart.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\iostream\src\sl_iostream_usart.c</path>
+            </group>
+            <group name="inc">
+              <path>simplicity_sdk_2024.12.1\platform\service\iostream\inc\sl_iostream.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\iostream\inc\sl_iostream_uart.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\iostream\inc\sli_iostream_uart.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\iostream\inc\sl_iostream_usart.h</path>
+            </group>
+          </group>
+          <group name="memory_manager">
+            <group name="src">
+              <path>simplicity_sdk_2024.12.1\platform\service\memory_manager\src\sl_memory_manager.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\memory_manager\src\sl_memory_manager_dynamic_reservation.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\memory_manager\src\sli_memory_manager_common.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\memory_manager\src\sl_memory_manager_retarget.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\memory_manager\src\sli_memory_manager.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\memory_manager\src\sl_memory_manager_pool_common.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\memory_manager\src\sl_memory_manager_pool.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\memory_manager\src\sl_memory_manager_region.c</path>
+            </group>
+            <group name="inc">
+              <path>simplicity_sdk_2024.12.1\platform\service\memory_manager\inc\sl_memory_manager.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\memory_manager\inc\sl_memory_manager_region.h</path>
+            </group>
+            <group name="profiler">
+              <group name="src">
+                <path>simplicity_sdk_2024.12.1\platform\service\memory_manager\profiler\src\sli_memory_profiler_stubs.c</path>
+              </group>
+              <group name="inc">
+                <path>simplicity_sdk_2024.12.1\platform\service\memory_manager\profiler\inc\sli_memory_profiler.h</path>
+              </group>
+            </group>
+          </group>
+          <group name="mpu">
+            <group name="src">
+              <path>simplicity_sdk_2024.12.1\platform\service\mpu\src\sl_mpu.c</path>
+            </group>
+            <group name="inc">
+              <path>simplicity_sdk_2024.12.1\platform\service\mpu\inc\sl_mpu.h</path>
+            </group>
+          </group>
+          <group name="power_manager">
+            <group name="src">
+              <group name="common">
+                <path>simplicity_sdk_2024.12.1\platform\service\power_manager\src\common\sl_power_manager_common.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\service\power_manager\src\common\sl_power_manager_em4.c</path>
+              </group>
+              <group name="sleep_loop">
+                <path>simplicity_sdk_2024.12.1\platform\service\power_manager\src\sleep_loop\sl_power_manager.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\service\power_manager\src\sleep_loop\sl_power_manager_debug.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\service\power_manager\src\sleep_loop\sl_power_manager_hal_s2.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\service\power_manager\src\sleep_loop\sli_power_manager_private.h</path>
+              </group>
+            </group>
+            <group name="inc">
+              <path>simplicity_sdk_2024.12.1\platform\service\power_manager\inc\sl_power_manager.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\power_manager\inc\sl_power_manager_debug.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\power_manager\inc\sli_power_manager.h</path>
+            </group>
+          </group>
+          <group name="system">
+            <group name="src">
+              <path>simplicity_sdk_2024.12.1\platform\service\system\src\sl_system_init.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\system\src\sl_system_process_action.c</path>
+            </group>
+            <group name="inc">
+              <path>simplicity_sdk_2024.12.1\platform\service\system\inc\sl_system_init.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\system\inc\sl_system_process_action.h</path>
+            </group>
+          </group>
+          <group name="sleeptimer">
+            <group name="src">
+              <path>simplicity_sdk_2024.12.1\platform\service\sleeptimer\src\sl_sleeptimer.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\sleeptimer\src\sl_sleeptimer_hal_sysrtc.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\sleeptimer\src\sl_sleeptimer_hal_burtc.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\sleeptimer\src\sl_sleeptimer_hal_timer.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\sleeptimer\src\sli_sleeptimer_hal.h</path>
+            </group>
+            <group name="inc">
+              <path>simplicity_sdk_2024.12.1\platform\service\sleeptimer\inc\sl_sleeptimer.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\sleeptimer\inc\sli_sleeptimer.h</path>
+            </group>
+          </group>
+          <group name="udelay">
+            <group name="src">
+              <path>simplicity_sdk_2024.12.1\platform\service\udelay\src\sl_udelay.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\service\udelay\src\sl_udelay_armv6m_iar.s</path>
+            </group>
+            <group name="inc">
+              <path>simplicity_sdk_2024.12.1\platform\service\udelay\inc\sl_udelay.h</path>
+            </group>
+          </group>
+        </group>
+        <group name="CMSIS">
+          <group name="Core">
+            <group name="Include">
+              <path>simplicity_sdk_2024.12.1\platform\CMSIS\Core\Include\cmsis_compiler.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\CMSIS\Core\Include\cmsis_version.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\CMSIS\Core\Include\tz_context.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\CMSIS\Core\Include\cmsis_iccarm.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\CMSIS\Core\Include\core_cm33.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\CMSIS\Core\Include\mpu_armv8.h</path>
+            </group>
+          </group>
+        </group>
+        <group name="driver">
+          <group name="debug">
+            <group name="src">
+              <path>simplicity_sdk_2024.12.1\platform\driver\debug\src\sl_debug_swo.c</path>
+            </group>
+            <group name="inc">
+              <path>simplicity_sdk_2024.12.1\platform\driver\debug\inc\sl_debug_swo.h</path>
+            </group>
+          </group>
+          <group name="gpio">
+            <group name="src">
+              <path>simplicity_sdk_2024.12.1\platform\driver\gpio\src\sl_gpio.c</path>
+            </group>
+            <group name="inc">
+              <path>simplicity_sdk_2024.12.1\platform\driver\gpio\inc\sl_gpio.h</path>
+            </group>
+          </group>
+        </group>
+        <group name="emdrv">
+          <group name="dmadrv">
+            <group name="src">
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\dmadrv\src\dmadrv.c</path>
+            </group>
+            <group name="inc">
+              <group name="s2_signals">
+                <path>simplicity_sdk_2024.12.1\platform\emdrv\dmadrv\inc\s2_signals\dmadrv_signals.h</path>
+              </group>
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\dmadrv\inc\dmadrv.h</path>
+            </group>
+          </group>
+          <group name="common">
+            <group name="inc">
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\common\inc\ecode.h</path>
+            </group>
+          </group>
+          <group name="gpiointerrupt">
+            <group name="src">
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\gpiointerrupt\src\gpiointerrupt.c</path>
+            </group>
+            <group name="inc">
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\gpiointerrupt\inc\gpiointerrupt.h</path>
+            </group>
+          </group>
+          <group name="nvm3">
+            <group name="inc">
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\nvm3\inc\nvm3_default.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\nvm3\inc\nvm3.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\nvm3\inc\nvm3_generic.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\nvm3\inc\nvm3_cache.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\nvm3\inc\nvm3_hal.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\nvm3\inc\nvm3_hal_flash.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\nvm3\inc\nvm3_lock.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\nvm3\inc\nvm3_object.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\nvm3\inc\nvm3_page.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\nvm3\inc\nvm3_trace.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\nvm3\inc\nvm3_utils.h</path>
+            </group>
+            <group name="src">
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\nvm3\src\nvm3_default_common_linker.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\nvm3\src\nvm3.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\nvm3\src\nvm3_cache.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\nvm3\src\nvm3_hal_flash.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\nvm3\src\nvm3_lock.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\nvm3\src\nvm3_object.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\nvm3\src\nvm3_page.c</path>
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\nvm3\src\nvm3_utils.c</path>
+            </group>
+            <group name="config">
+              <path>simplicity_sdk_2024.12.1\platform\emdrv\nvm3\config\nvm3_config.h</path>
+            </group>
+          </group>
+        </group>
+        <group name="emlib">
+          <group name="src">
+            <path>simplicity_sdk_2024.12.1\platform\emlib\src\em_burtc.c</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\src\em_cmu.c</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\src\em_core.c</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\src\em_emu.c</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\src\em_eusart.c</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\src\em_gpio.c</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\src\em_ldma.c</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\src\em_msc.c</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\src\em_prs.c</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\src\em_rmu.c</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\src\em_system.c</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\src\em_timer.c</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\src\em_usart.c</path>
+          </group>
+          <group name="inc">
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_burtc.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_chip.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_cmu.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_cmu_compat.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\sli_em_cmu.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_assert.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_bus.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_common.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_ramfunc.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_version.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_core.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_core_generic.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_emu.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_eusart.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_eusart_compat.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_gpio.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_ldma.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_msc.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_msc_compat.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_prs.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_rmu.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_syscfg.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_system.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_system_generic.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_timer.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\emlib\inc\em_usart.h</path>
+          </group>
+        </group>
+        <group name="peripheral">
+          <group name="inc">
+            <path>simplicity_sdk_2024.12.1\platform\peripheral\inc\sl_hal_bus.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\peripheral\inc\sl_hal_gpio.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\peripheral\inc\sl_hal_syscfg.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\peripheral\inc\sl_hal_sysrtc.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\peripheral\inc\sl_hal_sysrtc_compat.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\peripheral\inc\peripheral_sysrtc.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\peripheral\inc\peripheral_sysrtc_compat.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\peripheral\inc\sl_hal_system.h</path>
+            <path>simplicity_sdk_2024.12.1\platform\peripheral\inc\sl_hal_system_generic.h</path>
+          </group>
+          <group name="src">
+            <path>simplicity_sdk_2024.12.1\platform\peripheral\src\sl_hal_gpio.c</path>
+            <path>simplicity_sdk_2024.12.1\platform\peripheral\src\sl_hal_sysrtc.c</path>
+            <path>simplicity_sdk_2024.12.1\platform\peripheral\src\sl_hal_system.c</path>
+          </group>
+        </group>
+        <group name="security">
+          <group name="sl_component">
+            <group name="sl_mbedtls_support">
+              <group name="config">
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_mbedtls_support\config\sli_mbedtls_acceleration.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_mbedtls_support\config\sli_mbedtls_omnipresent.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_mbedtls_support\config\sli_psa_acceleration.h</path>
+              </group>
+              <group name="src">
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_mbedtls_support\src\sl_mbedtls.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_mbedtls_support\src\sl_psa_crypto.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_mbedtls_support\src\sli_psa_crypto.c</path>
+              </group>
+              <group name="inc">
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_mbedtls_support\inc\sl_mbedtls.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_mbedtls_support\inc\aes_alt.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_mbedtls_support\inc\ccm_alt.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_mbedtls_support\inc\cmac_alt.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_mbedtls_support\inc\se_management.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_mbedtls_support\inc\sha1_alt.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_mbedtls_support\inc\sha256_alt.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_mbedtls_support\inc\sha512_alt.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_mbedtls_support\inc\gcm_alt.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_mbedtls_support\inc\ecjpake_alt.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_mbedtls_support\inc\sl_psa_crypto.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_mbedtls_support\inc\sli_psa_crypto.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_mbedtls_support\inc\sl_psa_values.h</path>
+              </group>
+            </group>
+            <group name="sl_psa_driver">
+              <group name="src">
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\src\sli_psa_trng.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\src\sli_psa_driver_init.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\src\sli_psa_driver_common.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\src\sli_se_version_dependencies.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\src\sl_psa_its_nvm3.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\src\sli_se_driver_builtin_keys.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\src\sli_se_driver_key_management.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\src\sli_se_driver_key_derivation.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\src\sli_se_driver_aead.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\src\sli_se_driver_mac.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\src\sli_se_driver_signature.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\src\sli_se_driver_cipher.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\src\sli_se_transparent_driver_cipher.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\src\sli_se_transparent_driver_hash.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\src\sli_se_transparent_driver_aead.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\src\sli_se_transparent_driver_mac.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\src\sli_se_transparent_key_derivation.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\src\sli_se_opaque_driver_mac.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\src\sli_se_opaque_key_derivation.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\src\sli_se_opaque_driver_cipher.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\src\sli_se_opaque_driver_aead.c</path>
+              </group>
+              <group name="inc">
+                <group name="psa">
+                  <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\inc\psa\internal_trusted_storage.h</path>
+                  <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\inc\psa\sli_internal_trusted_storage.h</path>
+                  <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\inc\psa\error.h</path>
+                </group>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\inc\sli_psa_driver_common.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\inc\sli_se_version_dependencies.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\inc\sli_psa_driver_features.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\inc\sli_se_driver_aead.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\inc\sli_se_driver_cipher.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\inc\sli_se_driver_key_derivation.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\inc\sli_se_driver_key_management.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\inc\sli_se_driver_mac.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\inc\sli_se_opaque_functions.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\inc\sli_se_opaque_types.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\inc\sli_se_transparent_functions.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_psa_driver\inc\sli_se_transparent_types.h</path>
+              </group>
+            </group>
+            <group name="se_manager">
+              <group name="src">
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\src\sl_se_manager.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\src\sl_se_manager_util.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\src\sl_se_manager_cipher.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\src\sl_se_manager_entropy.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\src\sl_se_manager_hash.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\src\sl_se_manager_key_derivation.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\src\sl_se_manager_key_handling.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\src\sl_se_manager_signature.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\src\sl_se_manager_attestation.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\src\sli_se_manager_mailbox.c</path>
+              </group>
+              <group name="inc">
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\inc\sl_se_manager.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\inc\sl_se_manager_defines.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\inc\sl_se_manager_types.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\inc\sl_se_manager_util.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\inc\sli_se_manager_features.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\inc\sl_se_manager_internal_keys.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\inc\sli_se_manager_internal.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\inc\sl_se_manager_check_config.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\inc\sl_se_manager_config.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\inc\sl_se_manager_cipher.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\inc\sl_se_manager_entropy.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\inc\sl_se_manager_hash.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\inc\sl_se_manager_key_derivation.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\inc\sl_se_manager_key_handling.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\inc\sl_se_manager_signature.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\inc\sl_se_manager_attestation.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\se_manager\inc\sli_se_manager_mailbox.h</path>
+              </group>
+            </group>
+            <group name="sli_crypto">
+              <group name="src">
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sli_crypto\src\sl_crypto_s2.c</path>
+              </group>
+              <group name="inc">
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sli_crypto\inc\sli_crypto.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sli_crypto\inc\sli_crypto_s2.h</path>
+              </group>
+            </group>
+            <group name="sl_protocol_crypto">
+              <group name="src">
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_protocol_crypto\src\sli_protocol_crypto_radioaes.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_protocol_crypto\src\sli_radioaes_management.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_protocol_crypto\src\sli_protocol_crypto.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sl_protocol_crypto\src\sli_radioaes_management.h</path>
+              </group>
+            </group>
+            <group name="sli_psec_osal">
+              <group name="inc">
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sli_psec_osal\inc\sli_psec_osal.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\security\sl_component\sli_psec_osal\inc\sli_psec_osal_baremetal.h</path>
+              </group>
+            </group>
+          </group>
+        </group>
+        <group name="radio">
+          <group name="rail_lib">
+            <group name="common">
+              <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\common\rail.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\common\rail_mfm.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\common\rail_assert_error_codes.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\common\rail_types.h</path>
+              <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\common\rail_features.h</path>
+            </group>
+            <group name="protocol">
+              <group name="ble">
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\protocol\ble\rail_ble.h</path>
+              </group>
+              <group name="ieee802154">
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\protocol\ieee802154\rail_ieee802154.h</path>
+              </group>
+              <group name="wmbus">
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\protocol\wmbus\rail_wmbus.h</path>
+              </group>
+              <group name="zwave">
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\protocol\zwave\rail_zwave.h</path>
+              </group>
+              <group name="sidewalk">
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\protocol\sidewalk\rail_sidewalk.h</path>
+              </group>
+            </group>
+            <group name="chip">
+              <group name="efr32">
+                <group name="efr32xg2x">
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\chip\efr32\efr32xg2x\rail_chip_specific.h</path>
+                </group>
+              </group>
+            </group>
+            <group name="autogen">
+              <group name="librail_release">
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\autogen\librail_release\librail_multiprotocol_efr32xg28_iar_release.a</path>
+              </group>
+            </group>
+            <group name="apps">
+              <group name="railtest">
+                <group name="app_ci">
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_ci\autoack_ci.c</path>
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_ci\ble_ci.c</path>
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_ci\channel_hopping_ci.c</path>
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_ci\radio_config_ci.c</path>
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_ci\timer_ci.c</path>
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_ci\address_filter_ci.c</path>
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_ci\trx_ci.c</path>
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_ci\wmbus_ci.c</path>
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_ci\zwave_ci.c</path>
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_ci\mfm_ci.c</path>
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_ci\info_ci.c</path>
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_ci\debug_ci.c</path>
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_ci\154_rx_ci.c</path>
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_ci\lbt_ci.c</path>
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_ci\error_rate_ci.c</path>
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_ci\packet_ci.c</path>
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_ci\parameter_ci.c</path>
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_ci\gpio_ci.c</path>
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_ci\script_ci.c</path>
+                </group>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_main.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_trx.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\railtest_helpers.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_hal.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_modes.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\mode_helpers.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_common.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railtest\app_trx.h</path>
+              </group>
+              <group name="railapp">
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railapp\railapp_rmr.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railapp\railapp_malloc.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railapp\railapp_antenna.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railapp\railapp_antenna.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railapp\railapp_rmr.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\apps\railapp\railapp_malloc.h</path>
+              </group>
+            </group>
+            <group name="hal">
+              <group name="efr32">
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\hal\efr32\hal_efr.c</path>
+              </group>
+              <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\hal\hal_common.h</path>
+            </group>
+            <group name="plugin">
+              <group name="pa-auto-mode">
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\pa-auto-mode\pa_auto_mode.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\pa-auto-mode\pa_auto_mode.h</path>
+              </group>
+              <group name="rail_util_ant_div">
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\rail_util_ant_div\sl_rail_util_ant_div.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\rail_util_ant_div\sl_rail_util_ant_div.h</path>
+              </group>
+              <group name="rail_util_callbacks">
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\rail_util_callbacks\sl_rail_util_callbacks.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\rail_util_callbacks\sli_rail_util_callbacks.h</path>
+              </group>
+              <group name="rail_util_dma">
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\rail_util_dma\sl_rail_util_dma.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\rail_util_dma\sl_rail_util_dma.h</path>
+              </group>
+              <group name="rail_util_ieee802154">
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\rail_util_ieee802154\sl_rail_util_ieee802154_stack_event.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\rail_util_ieee802154\sl_rail_util_ieee802154_phy_select.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\rail_util_ieee802154\sl_rail_util_ieee802154_rail_event.c</path>
+              </group>
+              <group name="pa-conversions">
+                <group name="efr32xg28">
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\pa-conversions\efr32xg28\sl_rail_util_pa_curves_14dbm_868M.h</path>
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\pa-conversions\efr32xg28\sl_rail_util_pa_curves_14dbm_915M.h</path>
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\pa-conversions\efr32xg28\sl_rail_util_pa_curves_20dbm_868M.h</path>
+                  <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\pa-conversions\efr32xg28\sl_rail_util_pa_curves_20dbm_915M.h</path>
+                </group>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\pa-conversions\pa_conversions_efr32.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\pa-conversions\pa_curves_efr32.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\pa-conversions\pa_conversions_efr32.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\pa-conversions\pa_curve_types_efr32.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\pa-conversions\pa_curves_efr32.h</path>
+              </group>
+              <group name="rail_util_power_manager_init">
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\rail_util_power_manager_init\sl_rail_util_power_manager_init.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\rail_util_power_manager_init\sl_rail_util_power_manager_init.h</path>
+              </group>
+              <group name="rail_util_protocol">
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\rail_util_protocol\sl_rail_util_protocol.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\rail_util_protocol\sl_rail_util_protocol.h</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\rail_util_protocol\sl_rail_util_protocol_types.h</path>
+              </group>
+              <group name="rail_util_pti">
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\rail_util_pti\sl_rail_util_pti.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\rail_util_pti\sl_rail_util_pti.h</path>
+              </group>
+              <group name="rail_util_rf_path">
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\rail_util_rf_path\sl_rail_util_rf_path.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\rail_util_rf_path\sl_rail_util_rf_path.h</path>
+              </group>
+              <group name="rail_util_rf_path_switch">
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\rail_util_rf_path_switch\sl_rail_util_rf_path_switch.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\rail_util_rf_path_switch\sl_rail_util_rf_path_switch.h</path>
+              </group>
+              <group name="rail_util_rssi">
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\rail_util_rssi\sl_rail_util_rssi.c</path>
+                <path>simplicity_sdk_2024.12.1\platform\radio\rail_lib\plugin\rail_util_rssi\sl_rail_util_rssi.h</path>
+              </group>
+            </group>
+          </group>
+        </group>
+      </group>
+      <group name="app">
+        <group name="common">
+          <group name="util">
+            <group name="app_assert">
+              <path>simplicity_sdk_2024.12.1\app\common\util\app_assert\app_assert.h</path>
+              <path>simplicity_sdk_2024.12.1\app\common\util\app_assert\sl_app_assert.h</path>
+            </group>
+            <group name="app_timer">
+              <group name="bm">
+                <path>simplicity_sdk_2024.12.1\app\common\util\app_timer\bm\app_timer.c</path>
+                <path>simplicity_sdk_2024.12.1\app\common\util\app_timer\bm\app_timer_internal.h</path>
+                <path>simplicity_sdk_2024.12.1\app\common\util\app_timer\bm\app_timer_types.h</path>
+              </group>
+              <path>simplicity_sdk_2024.12.1\app\common\util\app_timer\app_timer.h</path>
+              <path>simplicity_sdk_2024.12.1\app\common\util\app_timer\sl_simple_timer.h</path>
+            </group>
+          </group>
+        </group>
+        <group name="bluetooth">
+          <group name="common">
+            <group name="gatt_service_device_information">
+              <path>simplicity_sdk_2024.12.1\app\bluetooth\common\gatt_service_device_information\sl_gatt_service_device_information.h</path>
+            </group>
+            <group name="in_place_ota_dfu">
+              <path>simplicity_sdk_2024.12.1\app\bluetooth\common\in_place_ota_dfu\sl_bt_in_place_ota_dfu.c</path>
+              <path>simplicity_sdk_2024.12.1\app\bluetooth\common\in_place_ota_dfu\sl_bt_in_place_ota_dfu.h</path>
+            </group>
+          </group>
+        </group>
+      </group>
+      <group name="protocol">
+        <group name="bluetooth">
+          <group name="src">
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\src\sl_apploader_util_s2.c</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\src\sli_bt_advertiser_config.c</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\src\sli_bt_connection_config.c</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\src\sli_bt_dynamic_gattdb_config.c</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\src\sli_bt_l2cap_config.c</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\src\sli_bt_pawr_advertiser_config.c</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\src\sli_bt_periodic_advertiser_config.c</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\src\sli_bt_sync_config.c</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\src\sli_bt_accept_list_config.c</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\src\sli_bt_host_adaptation.c</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\src\sl_bt_stack_init.c</path>
+          </group>
+          <group name="inc">
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\inc\sl_apploader_util.h</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\inc\sli_bt_config_defs.h</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\inc\sli_bt_advertiser_config.h</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\inc\sli_bt_connection_config.h</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\inc\sli_bt_dynamic_gattdb_config.h</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\inc\sli_bt_l2cap_config.h</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\inc\sli_bt_pawr_advertiser_config.h</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\inc\sli_bt_periodic_advertiser_config.h</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\inc\sli_bt_sync_config.h</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\inc\sli_bt_accept_list_config.h</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\inc\sli_bt_gattdb_def.h</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\inc\sli_bt_host_adaptation.h</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\inc\sl_bt_stack_config.h</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\inc\sl_bt_ll_config.h</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\inc\sl_bgapi.h</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\inc\sli_bgapi.h</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\inc\sl_bt_api.h</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\inc\sl_bt_api_compatibility.h</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\inc\sl_bt_stack_init.h</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\inc\sl_bt_types.h</path>
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\inc\sl_bt_version.h</path>
+          </group>
+          <group name="bgcommon">
+            <group name="src">
+              <path>simplicity_sdk_2024.12.1\protocol\bluetooth\bgcommon\src\sli_bgcommon_debug_efr32.c</path>
+            </group>
+            <group name="inc">
+              <path>simplicity_sdk_2024.12.1\protocol\bluetooth\bgcommon\inc\sli_bgcommon_debug.h</path>
+            </group>
+            <group name="lib">
+              <group name="build">
+                <group name="iar">
+                  <group name="cortex-m33">
+                    <group name="bgcommon">
+                      <group name="release">
+                        <path>simplicity_sdk_2024.12.1\protocol\bluetooth\bgcommon\lib\build\iar\cortex-m33\bgcommon\release\libbgcommon.a</path>
+                      </group>
+                    </group>
+                  </group>
+                </group>
+              </group>
+            </group>
+          </group>
+          <group name="bgstack">
+            <group name="ll">
+              <group name="build">
+                <group name="iar">
+                  <group name="xg28">
+                    <group name="release">
+                      <path>simplicity_sdk_2024.12.1\protocol\bluetooth\bgstack\ll\build\iar\xg28\release\liblinklayer.a</path>
+                    </group>
+                  </group>
+                </group>
+              </group>
+              <group name="inc">
+                <path>simplicity_sdk_2024.12.1\protocol\bluetooth\bgstack\ll\inc\sl_btctrl_linklayer.h</path>
+              </group>
+            </group>
+          </group>
+          <group name="build">
+            <group name="iar">
+              <group name="cortex-m33">
+                <group name="ble_host">
+                  <group name="bgstack">
+                    <group name="release">
+                      <path>simplicity_sdk_2024.12.1\protocol\bluetooth\build\iar\cortex-m33\ble_host\bgstack\release\libbondingdb.a</path>
+                      <path>simplicity_sdk_2024.12.1\protocol\bluetooth\build\iar\cortex-m33\ble_host\bgstack\release\libble_host.a</path>
+                    </group>
+                  </group>
+                  <group name="ble_bgapi">
+                    <group name="release">
+                      <path>simplicity_sdk_2024.12.1\protocol\bluetooth\build\iar\cortex-m33\ble_host\ble_bgapi\release\libble_bgapi_gatt_client.a</path>
+                      <path>simplicity_sdk_2024.12.1\protocol\bluetooth\build\iar\cortex-m33\ble_host\ble_bgapi\release\libble_bgapi_gatt_server.a</path>
+                      <path>simplicity_sdk_2024.12.1\protocol\bluetooth\build\iar\cortex-m33\ble_host\ble_bgapi\release\libble_bgapi.a</path>
+                    </group>
+                  </group>
+                  <group name="accept_list">
+                    <group name="release">
+                      <path>simplicity_sdk_2024.12.1\protocol\bluetooth\build\iar\cortex-m33\ble_host\accept_list\release\libble_host_accept_list_stub.a</path>
+                    </group>
+                  </group>
+                  <group name="hal">
+                    <group name="release">
+                      <path>simplicity_sdk_2024.12.1\protocol\bluetooth\build\iar\cortex-m33\ble_host\hal\release\libble_host_hal_series2.a</path>
+                    </group>
+                  </group>
+                  <group name="hci">
+                    <group name="release">
+                      <path>simplicity_sdk_2024.12.1\protocol\bluetooth\build\iar\cortex-m33\ble_host\hci\release\libble_host_hci.a</path>
+                    </group>
+                  </group>
+                  <group name="system">
+                    <group name="release">
+                      <path>simplicity_sdk_2024.12.1\protocol\bluetooth\build\iar\cortex-m33\ble_host\system\release\libble_system.a</path>
+                    </group>
+                  </group>
+                </group>
+                <group name="bgapi_protocol">
+                  <group name="api3">
+                    <group name="release">
+                      <path>simplicity_sdk_2024.12.1\protocol\bluetooth\build\iar\cortex-m33\bgapi_protocol\api3\release\libbgapi_core.a</path>
+                    </group>
+                  </group>
+                </group>
+              </group>
+            </group>
+          </group>
+          <group name="api">
+            <path>simplicity_sdk_2024.12.1\protocol\bluetooth\api\sl_bt.xapi</path>
+          </group>
+        </group>
+      </group>
+      <group name="hardware">
+        <group name="board">
+          <group name="src">
+            <path>simplicity_sdk_2024.12.1\hardware\board\src\sl_board_init.c</path>
+            <path>simplicity_sdk_2024.12.1\hardware\board\src\sl_board_control_gpio.c</path>
+          </group>
+          <group name="inc">
+            <path>simplicity_sdk_2024.12.1\hardware\board\inc\sl_board_control.h</path>
+            <path>simplicity_sdk_2024.12.1\hardware\board\inc\sl_board_init.h</path>
+          </group>
+        </group>
+        <group name="driver">
+          <group name="configuration_over_swo">
+            <group name="src">
+              <path>simplicity_sdk_2024.12.1\hardware\driver\configuration_over_swo\src\sl_cos.c</path>
+            </group>
+            <group name="inc">
+              <path>simplicity_sdk_2024.12.1\hardware\driver\configuration_over_swo\inc\sl_cos.h</path>
+            </group>
+          </group>
+          <group name="mx25_flash_shutdown">
+            <group name="src">
+              <group name="sl_mx25_flash_shutdown_eusart">
+                <path>simplicity_sdk_2024.12.1\hardware\driver\mx25_flash_shutdown\src\sl_mx25_flash_shutdown_eusart\sl_mx25_flash_shutdown.c</path>
+              </group>
+            </group>
+            <group name="inc">
+              <group name="sl_mx25_flash_shutdown_eusart">
+                <path>simplicity_sdk_2024.12.1\hardware\driver\mx25_flash_shutdown\inc\sl_mx25_flash_shutdown_eusart\sl_mx25_flash_shutdown.h</path>
+              </group>
+            </group>
+          </group>
+        </group>
+      </group>
+      <group name="util">
+        <group name="third_party">
+          <group name="mbedtls">
+            <group name="library">
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\constant_time.c</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\threading.c</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\platform.c</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\platform_util.c</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_util.c</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\alignment.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\bn_mul.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\base64_internal.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\bignum_core.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\bignum_internal.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\bignum_mod.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\bignum_mod_raw.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\bignum_mod_raw_invasive.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\block_cipher_internal.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\check_crypto_config.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\cipher_wrap.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\common.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\constant_time_impl.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\constant_time_internal.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\ctr.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\debug_internal.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\ecp_internal_alt.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\ecp_invasive.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\entropy_poll.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\lmots.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\md_psa.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\md_wrap.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\mps_common.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\mps_error.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\mps_reader.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\mps_trace.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\padlock.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\pk_internal.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\pk_wrap.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\pkwrite.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_util_internal.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\rsa_alt_helpers.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\rsa_internal.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\ssl_debug_helpers.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\ssl_client.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\ssl_ciphersuites_internal.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\ssl_misc.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\ssl_tls13_invasive.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\ssl_tls13_keys.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\x509_internal.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_client.c</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\cipher.c</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\cipher_wrap.c</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto.c</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_aead.c</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_cipher.c</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_driver_wrappers_no_static.c</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_slot_management.c</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_storage.c</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_ecp.c</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_ffdh.c</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_hash.c</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_mac.c</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_pake.c</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_rsa.c</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_se.c</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_aead.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_cipher.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_core.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_core_common.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_driver_wrappers.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_driver_wrappers_no_static.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_ecp.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_ffdh.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_hash.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_invasive.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_its.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_mac.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_pake.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_random_impl.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_rsa.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_se.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_slot_management.h</path>
+              <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\library\psa_crypto_storage.h</path>
+            </group>
+            <group name="include">
+              <group name="mbedtls">
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\aes.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\aria.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\asn1.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\asn1write.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\base64.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\bignum.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\block_cipher.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\build_info.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\camellia.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\ccm.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\chacha20.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\chachapoly.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\check_config.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\cipher.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\cmac.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\compat-2.x.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\config_adjust_legacy_crypto.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\config_adjust_legacy_from_psa.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\config_adjust_psa_from_legacy.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\config_adjust_psa_superset_legacy.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\config_adjust_ssl.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\config_adjust_x509.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\config_psa.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\constant_time.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\ctr_drbg.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\debug.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\des.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\dhm.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\ecdh.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\ecdsa.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\ecjpake.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\ecp.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\entropy.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\error.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\gcm.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\hkdf.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\hmac_drbg.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\lms.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\mbedtls_config.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\md.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\md5.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\memory_buffer_alloc.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\net_sockets.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\nist_kw.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\oid.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\pem.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\pk.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\pkcs12.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\pkcs5.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\pkcs7.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\platform.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\platform_time.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\platform_util.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\poly1305.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\private_access.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\psa_util.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\ripemd160.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\rsa.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\sha1.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\sha256.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\sha3.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\sha512.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\ssl.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\ssl_cache.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\ssl_ciphersuites.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\ssl_cookie.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\ssl_ticket.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\threading.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\timing.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\version.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\x509.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\x509_crl.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\x509_crt.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\mbedtls\x509_csr.h</path>
+              </group>
+              <group name="psa">
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\crypto.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\crypto_adjust_auto_enabled.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\crypto_adjust_config_dependencies.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\crypto_adjust_config_key_pair_types.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\crypto_adjust_config_synonyms.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\build_info.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\crypto_builtin_composites.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\crypto_builtin_primitives.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\crypto_builtin_key_derivation.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\crypto_compat.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\crypto_config.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\crypto_driver_common.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\crypto_driver_contexts_composites.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\crypto_driver_contexts_key_derivation.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\crypto_driver_contexts_primitives.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\crypto_extra.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\crypto_legacy.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\crypto_platform.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\crypto_se_driver.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\crypto_sizes.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\crypto_struct.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\crypto_types.h</path>
+                <path>simplicity_sdk_2024.12.1\util\third_party\mbedtls\include\psa\crypto_values.h</path>
+              </group>
+            </group>
+          </group>
+        </group>
+        <group name="silicon_labs">
+          <group name="silabs_core">
+            <group name="queue">
+              <path>simplicity_sdk_2024.12.1\util\silicon_labs\silabs_core\queue\circular_queue.c</path>
+              <path>simplicity_sdk_2024.12.1\util\silicon_labs\silabs_core\queue\circular_queue.h</path>
+            </group>
+            <group name="memory_manager">
+              <path>simplicity_sdk_2024.12.1\util\silicon_labs\silabs_core\memory_manager\buffer_pool_allocator.c</path>
+              <path>simplicity_sdk_2024.12.1\util\silicon_labs\silabs_core\memory_manager\buffer_pool_allocator.h</path>
+            </group>
+            <group name="response_print">
+              <path>simplicity_sdk_2024.12.1\util\silicon_labs\silabs_core\response_print\response_print.c</path>
+              <path>simplicity_sdk_2024.12.1\util\silicon_labs\silabs_core\response_print\response_print.h</path>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <path>bt_soc_empty_cli.slpb</path>
+    <path>main.c</path>
+    <path>app.c</path>
+    <path>app_bm.c</path>
+    <path>app.h</path>
+    <path>readme.md</path>
+    <path>sl_gatt_service_device_information.c</path>
+  </files>
+  <SimplicityStudioMetadata>
+    <metadata>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</metadata>
+  </SimplicityStudioMetadata>
+</iarProjectConnection>

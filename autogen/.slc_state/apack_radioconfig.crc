@@ -3,9 +3,9 @@
   "apackName" : "apack_radioConfig",
   "equality" : {
     "sdkId" : "com.silabs.sdk.stack.sisdk:2024.12.1",
-    "generatorIds" : [ "com.silabs.ss.framework.ide.project.core.cdtMbsProjectType" ],
+    "generatorIds" : [ "com.silabs.framework.project.ewp", "com.silabs.ss.framework.ide.project.core.cdtMbsProjectType" ],
     "fileStates" : {
-      "config/rail/radio_settings.radioconf" : {
+      "config\\rail\\radio_settings.radioconf" : {
         "hash" : 1817620146,
         "exists" : true
       }
